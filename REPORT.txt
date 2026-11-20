@@ -1,0 +1,12 @@
+=== SAFE ===
+closed 0 | wins 0 (0%) | open 0
+verdict: too early, need 30 more closed trades
+cash $100.00
+=== BALANCED ===
+closed 0 | wins 0 (0%) | open 0
+verdict: too early, need 30 more closed trades
+cash $100.00
+=== MOMENTUM ===
+closed 0 | wins 0 (0%) | open 1
+verdict: too early, need 30 more closed trades
+cash $94.97
