@@ -1,11 +1,11 @@
 === SAFE ===
-closed 0 | wins 0 (0%) | open 0
+closed 0 | wins 0 (0%) | open 1
 verdict: too early, need 30 more closed trades
-cash $100.00
+cash $94.97
 === BALANCED ===
-closed 0 | wins 0 (0%) | open 0
+closed 0 | wins 0 (0%) | open 1
 verdict: too early, need 30 more closed trades
-cash $100.00
+cash $94.97
 === MOMENTUM ===
 closed 1 | wins 0 (0%) | open 0
 total P&L $-5.03 | avg win $+0.00 | avg loss $-5.03
