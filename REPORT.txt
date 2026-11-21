@@ -1,9 +1,9 @@
 === SAFE ===
-closed 1 | wins 0 (0%) | open 2
+closed 1 | wins 0 (0%) | open 3
 total P&L $-3.28 | avg win $+0.00 | avg loss $-3.28
 profit factor 0.00 | expectancy/trade $-3.28 | max drawdown $3.28
 verdict: too early, need 29 more closed trades
-cash $86.99
+cash $82.12
 === BALANCED ===
 closed 2 | wins 0 (0%) | open 0
 total P&L $-6.05 | avg win $+0.00 | avg loss $-3.03
@@ -15,4 +15,4 @@ closed 2 | wins 0 (0%) | open 2
 total P&L $-7.76 | avg win $+0.00 | avg loss $-3.88
 profit factor 0.00 | expectancy/trade $-3.88 | max drawdown $7.76
 verdict: too early, need 28 more closed trades
-cash $82.96
+cash $87.30
