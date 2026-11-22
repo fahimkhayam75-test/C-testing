@@ -2,7 +2,7 @@
 """
 Solana memecoin PAPER bot v2. No wallet, no keys, no real money. Python 3.8+, stdlib only.
 
-  python3 paper_bot.py once     one scan then exit (use this on a scheduler)
+  python3 paper_bot.py once     one scan then exit
   python3 paper_bot.py          loop forever, scanning every 5 min
   python3 paper_bot.py report   print results per strategy
 
@@ -44,7 +44,7 @@ VARIANTS = {
 }
 DEX = "https://api.dexscreener.com"
 GECKO = "https://api.geckoterminal.com/api/v2"
-STATE_FILE, LOG_FILE = "state.json", "trades.csv"
+STATE_FILE, LOG_FILE = "state_v3.json", "trades_v3.csv"
 OFFSET = 0  # test hook: shifts the clock
 
 
@@ -81,10 +81,12 @@ def save(s):
 
 def log(row):
     new = not os.path.exists(LOG_FILE)
+    row = list(row) + [""] * (10 - len(row))
     with open(LOG_FILE, "a", newline="") as f:
         w = csv.writer(f)
         if new:
-            w.writerow(["time", "strategy", "action", "symbol", "address", "price", "usd", "pnl_usd", "reason"])
+            w.writerow(["time", "strategy", "action", "symbol", "address", "price", "usd", "pnl_usd",
+                        "reason", "entry_info"])
         w.writerow(row)
 
 
@@ -265,7 +267,8 @@ def buy(s, name, addr, p):
                            liq0=metrics(p)["liq"])
     V["traded"] = (V["traded"] + [addr])[-500:]
     log([datetime.fromtimestamp(tnow(), timezone.utc).isoformat(), name, "BUY", p["baseToken"]["symbol"],
-         addr, price, round(size, 2), "", "passed filters"])
+         addr, price, round(size, 2), "", "passed filters",
+         "liq={liq:.0f};vol_h1={vol:.0f};age_min={age:.0f};buys={buys};sells={sells};h1={h1};m5={m5}".format(**metrics(p))])
     print(f"[{name}] BUY {p['baseToken']['symbol']} ${size:.2f} @ {price:.8f}")
 
 
@@ -317,7 +320,9 @@ def report():
             dd = max(dd, peak - eq)
         pf = (sum(wins) / -sum(losses)) if losses and sum(losses) < 0 else float("inf") if wins else 0
         print(f"=== {name} ===")
-        print(f"closed {len(pn)} | wins {len(wins)} ({len(wins) / max(len(pn), 1):.0%}) | open {len(V['open'])}")
+        banked = sum(x["realized"] for x in V["open"].values())
+        print(f"closed {len(pn)} | wins {len(wins)} ({len(wins) / max(len(pn), 1):.0%}) | open {len(V['open'])}"
+              f" (profit already banked on open: ${banked:+.2f})")
         if pn:
             print(f"total P&L ${sum(pn):+.2f} | avg win ${sum(wins) / max(len(wins), 1):+.2f} | "
                   f"avg loss ${sum(losses) / max(len(losses), 1):+.2f}")
