@@ -7,6 +7,8 @@ closed 0 | wins 0 (0%) | open 1 (profit already banked on open: $+0.00)
 verdict: too early, need 30 more closed trades
 cash $94.97
 === MOMENTUM ===
-closed 0 | wins 0 (0%) | open 1 (profit already banked on open: $+0.00)
-verdict: too early, need 30 more closed trades
-cash $94.97
+closed 1 | wins 0 (0%) | open 0 (profit already banked on open: $+0.00)
+total P&L $-1.35 | avg win $+0.00 | avg loss $-1.35
+profit factor 0.00 | expectancy/trade $-1.35 | max drawdown $1.35
+verdict: too early, need 29 more closed trades
+cash $98.65
