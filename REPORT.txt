@@ -15,4 +15,4 @@ closed 7 | wins 2 (29%) | open 1
 total P&L $-9.94 | avg win $+1.16 | avg loss $-2.45
 profit factor 0.19 | expectancy/trade $-1.42 | max drawdown $9.94
 verdict: too early, need 23 more closed trades
-cash $85.53
+cash $91.95
