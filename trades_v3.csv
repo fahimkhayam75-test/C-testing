@@ -61,3 +61,4 @@ time,strategy,action,symbol,address,price,usd,pnl_usd,reason,entry_info
 2026-11-24T10:56:46.105925+00:00,BALANCED,SELL,Scamsem,5JWeGmA9z6yHd5F9P6B23A8wthho8BpZuDmQv5DfLoat,5.528e-05,3.5,-1.23,stop loss,
 2026-11-24T10:56:46.106173+00:00,MOMENTUM,SELL,Scamsem,5JWeGmA9z6yHd5F9P6B23A8wthho8BpZuDmQv5DfLoat,5.528e-05,3.35,-1.18,stop loss,
 2026-11-24T16:37:42.288424+00:00,SAFE,BUY,DONJENSEN,5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump,0.00192095,4.59,,passed filters,liq=98211;vol_h1=44459;age_min=844;buys=9005;sells=4417;h1=0.8;m5=-1.9
+2026-11-24T17:08:08.197159+00:00,SAFE,BUY,JIMMY,38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump,0.0008772510000000001,4.59,,passed filters,liq=73419;vol_h1=80763;age_min=1197;buys=1118;sells=1000;h1=18.93;m5=0.77
