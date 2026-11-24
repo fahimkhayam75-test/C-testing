@@ -76,3 +76,5 @@ time,strategy,action,symbol,address,price,usd,pnl_usd,reason,entry_info
 2026-11-24T19:00:02.797419+00:00,MOMENTUM,BUY,Holders,55RwtHpoNB81SgfiNvogeZTMfik2SfMGa5FaxKcXpump,0.000320742,4.3,,passed filters,liq=41511;vol_h1=486568;age_min=79;buys=7451;sells=5980;h1=120;m5=18.51
 2026-11-24T19:09:09.407945+00:00,BALANCED,SELL,CHRISTMAS,6jmhyHEy1rDyYHyRkr1rbVVQnckKpMYWh3zoX7zLpump,0.000149,3.08,-1.52,stop loss,
 2026-11-24T19:09:09.408211+00:00,MOMENTUM,SELL,CHRISTMAS,6jmhyHEy1rDyYHyRkr1rbVVQnckKpMYWh3zoX7zLpump,0.000149,2.9,-1.43,stop loss,
+2026-11-24T19:13:18.316447+00:00,BALANCED,SELL,Holders,55RwtHpoNB81SgfiNvogeZTMfik2SfMGa5FaxKcXpump,0.0001748,2.39,-2.21,stop loss,
+2026-11-24T19:13:18.316670+00:00,MOMENTUM,SELL,Holders,55RwtHpoNB81SgfiNvogeZTMfik2SfMGa5FaxKcXpump,0.0001748,2.24,-2.09,stop loss,
