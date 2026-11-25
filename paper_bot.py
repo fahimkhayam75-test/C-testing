@@ -6,7 +6,7 @@ Solana memecoin PAPER bot v2. No wallet, no keys, no real money. Python 3.8+, st
   python3 paper_bot.py          loop forever, scanning every 5 min
   python3 paper_bot.py report   print results per strategy
 
-Three strategies (SAFE / BALANCED / MOMENTUM) trade the SAME live tokens with
+Three strategies (SAFE / BALANCED / CALM) trade the SAME live tokens with
 separate pretend bankrolls, so you learn which one actually works.
 Paper results are optimistic. Don't trust any strategy before ~30 closed trades.
 """
@@ -37,10 +37,11 @@ VARIANTS = {
     "BALANCED": dict(MIN_LIQ=30_000, MIN_VOL=20_000, MIN_AGE=45, MAX_AGE=720, MIN_BUYS=60,
                      MAX_SB=1.1, H1_MIN=5, H1_MAX=120, M5_MIN=0, SL=-0.20, TP1=0.40,
                      TP1_FRAC=0.5, TRAIL=0.20, RC="core"),
-    # MOMENTUM: faster, riskier, bigger upside.
-    "MOMENTUM": dict(MIN_LIQ=20_000, MIN_VOL=30_000, MIN_AGE=30, MAX_AGE=360, MIN_BUYS=60,
-                     MAX_SB=1.2, H1_MIN=20, H1_MAX=200, M5_MIN=3, SL=-0.20, TP1=0.50,
-                     TP1_FRAC=0.5, TRAIL=0.25, RC="core"),
+    # CALM: BALANCED, but skips tokens already up more than 30% in the last hour.
+    # This is a hypothesis taken from the first 3 days of data. Judge it ONLY on new trades.
+    "CALM": dict(MIN_LIQ=30_000, MIN_VOL=20_000, MIN_AGE=45, MAX_AGE=720, MIN_BUYS=60,
+                 MAX_SB=1.1, H1_MIN=5, H1_MAX=30, M5_MIN=0, SL=-0.20, TP1=0.40,
+                 TP1_FRAC=0.5, TRAIL=0.20, RC="core"),
 }
 DEX = "https://api.dexscreener.com"
 GECKO = "https://api.geckoterminal.com/api/v2"
