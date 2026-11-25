@@ -96,3 +96,5 @@ time,strategy,action,symbol,address,price,usd,pnl_usd,reason,entry_info
 2026-11-25T14:40:23.569396+00:00,MOMENTUM,SELL,JaoJiu,2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy,0.0001083,2.24,-1.86,stop loss,
 2026-11-25T15:00:34.625920+00:00,MOMENTUM,BUY,MONEYGO,5Go8ByHzd9vvdBHhqFnxxgU2SRDfTv5XXMLjBnvrpump,0.000112064,3.98,,passed filters,liq=21777;vol_h1=234010;age_min=40;buys=8929;sells=1465;h1=160;m5=10.92
 2026-11-25T15:08:37.730715+00:00,MOMENTUM,SELL,MONEYGO,5Go8ByHzd9vvdBHhqFnxxgU2SRDfTv5XXMLjBnvrpump,0.000185,3.16,1.15,take profit 1,
+2026-11-25T15:10:40.493514+00:00,BALANCED,BUY,Pompom,5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump,0.000272538,4.28,,passed filters,liq=38773;vol_h1=171767;age_min=234;buys=2319;sells=1976;h1=5.96;m5=0
+2026-11-25T15:13:41.288229+00:00,MOMENTUM,SELL,MONEYGO,5Go8ByHzd9vvdBHhqFnxxgU2SRDfTv5XXMLjBnvrpump,7.16e-05,1.2,-0.8,trailing stop,

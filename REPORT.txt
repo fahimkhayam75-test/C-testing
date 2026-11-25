@@ -5,14 +5,14 @@ profit factor 0.19 | expectancy/trade $-0.81 | max drawdown $9.84
 verdict: too early, need 19 more closed trades
 cash $91.07
 === BALANCED ===
-closed 18 | wins 4 (22%) | open 0 (profit already banked on open: $+0.00)
+closed 18 | wins 4 (22%) | open 1 (profit already banked on open: $+0.00)
 total P&L $-14.39 | avg win $+1.33 | avg loss $-1.41
 profit factor 0.27 | expectancy/trade $-0.80 | max drawdown $15.03
 verdict: too early, need 12 more closed trades
-cash $85.61
+cash $81.30
 === MOMENTUM ===
-closed 15 | wins 0 (0%) | open 1 (profit already banked on open: $+1.15)
-total P&L $-20.41 | avg win $+0.00 | avg loss $-1.36
-profit factor 0.00 | expectancy/trade $-1.36 | max drawdown $20.41
-verdict: too early, need 15 more closed trades
-cash $78.74
+closed 16 | wins 1 (6%) | open 0 (profit already banked on open: $+0.00)
+total P&L $-20.06 | avg win $+0.35 | avg loss $-1.36
+profit factor 0.02 | expectancy/trade $-1.25 | max drawdown $20.41
+verdict: too early, need 14 more closed trades
+cash $79.94
