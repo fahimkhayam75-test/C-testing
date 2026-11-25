@@ -100,3 +100,4 @@ time,strategy,action,symbol,address,price,usd,pnl_usd,reason,entry_info
 2026-11-25T15:13:41.288229+00:00,MOMENTUM,SELL,MONEYGO,5Go8ByHzd9vvdBHhqFnxxgU2SRDfTv5XXMLjBnvrpump,7.16e-05,1.2,-0.8,trailing stop,
 2026-11-25T15:39:51.075709+00:00,BALANCED,SELL,Pompom,5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump,0.0004354,3.29,1.13,take profit 1,
 2026-11-25T16:02:01.871171+00:00,BALANCED,SELL,Pompom,5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump,0.0003867,2.92,0.76,trailing stop,
+2026-11-25T16:41:25.205274+00:00,BALANCED,BUY,BIAO,As3XtYSstuVdrVyb6sJZZ77Tu8JvjTBg6S6hgPv4pump,0.00020610300000000002,4.37,,passed filters,liq=31095;vol_h1=47867;age_min=93;buys=590;sells=314;h1=12.13;m5=1.11
