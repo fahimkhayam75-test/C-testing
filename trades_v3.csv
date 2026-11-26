@@ -121,3 +121,5 @@ time,strategy,action,symbol,address,price,usd,pnl_usd,reason,entry_info
 2026-11-26T01:41:45.616170+00:00,BALANCED,BUY,MONEY,DeACAbp2GMzapB6Z2K8qdkTZupmNbKc6EZx9bnbCpump,0.00073851,4.47,,passed filters,liq=62982;vol_h1=1268020;age_min=114;buys=9938;sells=6078;h1=116;m5=0.69
 2026-11-26T01:41:46.216020+00:00,BALANCED,BUY,Zero,DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump,0.000690203,4.47,,passed filters,liq=61935;vol_h1=887745;age_min=88;buys=9419;sells=9220;h1=96.33;m5=11.57
 2026-11-26T01:41:46.695651+00:00,BALANCED,BUY,UHI,Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump,0.0010845899999999999,4.47,,passed filters,liq=73197;vol_h1=99870;age_min=143;buys=1062;sells=597;h1=114;m5=2.82
+2026-11-26T01:51:55.809841+00:00,CALM,BUY,Pumpcat,5CPiu3nmhYWWnj6BfebvMzqqwPUBm8UzBtNGW4cEpump,0.00044454799999999996,5.0,,passed filters,liq=46158;vol_h1=75421;age_min=109;buys=6129;sells=3402;h1=20.79;m5=3.8
+2026-11-26T01:53:56.491651+00:00,BALANCED,SELL,Zero,DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump,0.0005112,3.18,-1.32,stop loss,
