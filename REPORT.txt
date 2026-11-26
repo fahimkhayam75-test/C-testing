@@ -11,8 +11,8 @@ profit factor 0.55 | expectancy/trade $-0.37 | max drawdown $15.03
 verdict: NOT working, do not trade real money with this
 cash $88.87
 === CALM ===
-closed 6 | wins 0 (0%) | open 0 (profit already banked on open: $+0.00)
+closed 6 | wins 0 (0%) | open 1 (profit already banked on open: $+0.00)
 total P&L $-5.30 | avg win $+0.00 | avg loss $-0.88
 profit factor 0.00 | expectancy/trade $-0.88 | max drawdown $5.30
 verdict: too early, need 24 more closed trades
-cash $94.70
+cash $89.93
