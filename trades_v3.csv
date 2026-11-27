@@ -179,3 +179,9 @@ time,strategy,action,symbol,address,price,usd,pnl_usd,reason,entry_info
 2026-11-27T01:13:54.204608+00:00,BALANCED,SELL,POPBALL,CKiuTwHFMXKBaQ4V1WgsYctsdbLeit3wytXRkphzpump,0.0001281,2.58,-1.53,stop loss,
 2026-11-27T02:05:28.178522+00:00,BALANCED,BUY,KAI,G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump,0.00289327,4.0,,passed filters,liq=126208;vol_h1=1836195;age_min=81;buys=13079;sells=8302;h1=75.09;m5=7.58
 2026-11-27T02:58:05.264743+00:00,BALANCED,BUY,Santaball,4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump,0.001027425,4.0,,passed filters,liq=72029;vol_h1=594636;age_min=69;buys=15574;sells=4645;h1=87.86;m5=7.78
+2026-11-27T03:39:34.196840+00:00,CALM,BUY,Santaball,4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump,0.00112888,4.49,,passed filters,liq=76157;vol_h1=168372;age_min=111;buys=14915;sells=2939;h1=20.98;m5=3.68
+2026-11-27T03:41:34.884085+00:00,BALANCED,SELL,Santaball,4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump,0.001502,2.81,0.79,take profit 1,
+2026-11-27T03:42:35.438590+00:00,CALM,SELL,Santaball,4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump,0.001682,3.22,0.96,take profit 1,
+2026-11-27T03:44:36.727033+00:00,BALANCED,SELL,Santaball,4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump,0.00128,2.39,0.37,trailing stop,
+2026-11-27T03:44:36.727253+00:00,CALM,SELL,Santaball,4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump,0.00128,2.44,0.18,trailing stop,
+2026-11-27T03:46:38.445782+00:00,BALANCED,BUY,SpaceXCoin,G2XqmSc8vJpLLwaLVXUeNkxsrhVT8vQ3Pje8MqeDpump,0.00046556,4.06,,passed filters,liq=48365;vol_h1=223925;age_min=82;buys=9153;sells=1434;h1=49.79;m5=5.75
