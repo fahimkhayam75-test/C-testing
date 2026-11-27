@@ -194,3 +194,5 @@ time,strategy,action,symbol,address,price,usd,pnl_usd,reason,entry_info
 2026-11-27T05:36:01.520659+00:00,BALANCED,SELL,SpaceXCoin,G2XqmSc8vJpLLwaLVXUeNkxsrhVT8vQ3Pje8MqeDpump,0.0005587,2.33,0.29,trailing stop,
 2026-11-27T07:34:48.125133+00:00,BALANCED,BUY,DEXDATA,63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump,0.000245861,4.04,,passed filters,liq=36493;vol_h1=22377;age_min=610;buys=281;sells=192;h1=6.68;m5=8.4
 2026-11-27T07:34:48.125334+00:00,CALM,BUY,DEXDATA,63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump,0.000245861,4.49,,passed filters,liq=36493;vol_h1=22377;age_min=610;buys=281;sells=192;h1=6.68;m5=8.4
+2026-11-27T09:02:27.781420+00:00,BALANCED,SELL,DEXDATA,63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump,0.0003495,2.76,0.72,take profit 1,
+2026-11-27T09:02:27.781641+00:00,CALM,SELL,DEXDATA,63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump,0.0003495,3.07,0.81,take profit 1,
