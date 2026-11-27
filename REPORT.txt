@@ -1,18 +1,18 @@
 === SAFE ===
-closed 16 | wins 5 (31%) | open 0 (profit already banked on open: $+0.00)
+closed 16 | wins 5 (31%) | open 1 (profit already banked on open: $+0.83)
 total P&L $-7.68 | avg win $+1.07 | avg loss $-1.18
 profit factor 0.41 | expectancy/trade $-0.48 | max drawdown $9.84
 verdict: too early, need 14 more closed trades
-cash $92.32
+cash $90.83
 === BALANCED ===
-closed 42 | wins 14 (33%) | open 1 (profit already banked on open: $+0.00)
+closed 42 | wins 14 (33%) | open 1 (profit already banked on open: $+0.70)
 total P&L $-19.25 | avg win $+1.27 | avg loss $-1.32
 profit factor 0.48 | expectancy/trade $-0.46 | max drawdown $20.18
 verdict: NOT working, do not trade real money with this
-cash $76.63
+cash $79.39
 === CALM ===
-closed 12 | wins 3 (25%) | open 0 (profit already banked on open: $+0.00)
+closed 12 | wins 3 (25%) | open 2 (profit already banked on open: $+0.82)
 total P&L $-9.18 | avg win $+1.10 | avg loss $-1.39
 profit factor 0.26 | expectancy/trade $-0.76 | max drawdown $10.19
 verdict: too early, need 18 more closed trades
-cash $90.82
+cash $84.78

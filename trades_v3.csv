@@ -201,3 +201,9 @@ time,strategy,action,symbol,address,price,usd,pnl_usd,reason,entry_info
 2026-11-27T16:17:01.794595+00:00,BALANCED,BUY,Fireball,B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump,0.0006497240000000001,4.09,,passed filters,liq=56886;vol_h1=77337;age_min=128;buys=660;sells=490;h1=60.81;m5=11.59
 2026-11-27T17:07:34.050159+00:00,BALANCED,BUY,Elfball,92tFJ6CvgCuoS1c34Qy5g3RPVRDmLyHtknMnuoYqpump,0.000530553,4.09,,passed filters,liq=50820;vol_h1=315592;age_min=66;buys=14156;sells=3959;h1=64.14;m5=24.93
 2026-11-27T17:10:34.979048+00:00,BALANCED,SELL,Elfball,92tFJ6CvgCuoS1c34Qy5g3RPVRDmLyHtknMnuoYqpump,0.0004154,3.08,-1.04,stop loss,
+2026-11-27T17:18:40.340183+00:00,CALM,BUY,Elfball,92tFJ6CvgCuoS1c34Qy5g3RPVRDmLyHtknMnuoYqpump,0.000438677,4.54,,passed filters,liq=46196;vol_h1=204205;age_min=77;buys=13476;sells=3877;h1=12.13;m5=22.08
+2026-11-27T17:18:40.340348+00:00,SAFE,BUY,Fireball,B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump,0.000795057,4.62,,passed filters,liq=63365;vol_h1=168236;age_min=189;buys=8473;sells=1783;h1=9.73;m5=0.13
+2026-11-27T17:18:40.340403+00:00,CALM,BUY,Fireball,B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump,0.000795057,4.54,,passed filters,liq=63365;vol_h1=168236;age_min=189;buys=8473;sells=1783;h1=9.73;m5=0.13
+2026-11-27T17:20:40.856822+00:00,BALANCED,SELL,Fireball,B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump,0.0009133,2.76,0.7,take profit 1,
+2026-11-27T17:21:41.298025+00:00,SAFE,SELL,Fireball,B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump,0.001131,3.15,0.83,take profit 1,
+2026-11-27T17:21:41.298210+00:00,CALM,SELL,Fireball,B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump,0.001131,3.1,0.82,take profit 1,
