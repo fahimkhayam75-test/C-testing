@@ -5,11 +5,11 @@ profit factor 0.41 | expectancy/trade $-0.48 | max drawdown $9.84
 verdict: too early, need 14 more closed trades
 cash $92.32
 === BALANCED ===
-closed 39 | wins 12 (31%) | open 1 (profit already banked on open: $+0.00)
+closed 39 | wins 12 (31%) | open 1 (profit already banked on open: $+0.78)
 total P&L $-20.18 | avg win $+1.32 | avg loss $-1.33
 profit factor 0.44 | expectancy/trade $-0.52 | max drawdown $20.18
 verdict: NOT working, do not trade real money with this
-cash $75.72
+cash $78.56
 === CALM ===
 closed 11 | wins 2 (18%) | open 0 (profit already banked on open: $+0.00)
 total P&L $-10.19 | avg win $+1.14 | avg loss $-1.39
