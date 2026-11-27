@@ -177,3 +177,4 @@ time,strategy,action,symbol,address,price,usd,pnl_usd,reason,entry_info
 2026-11-27T01:03:47.181918+00:00,CALM,SELL,Vetocat,9J2cy3AfDquDDKqjteYaFSrYEvUAGnb1Qxw8pZQApump,1.471e-06,0.0,-4.76,liquidity pulled,
 2026-11-27T01:09:52.689178+00:00,BALANCED,BUY,POPBALL,CKiuTwHFMXKBaQ4V1WgsYctsdbLeit3wytXRkphzpump,0.000194258,4.08,,passed filters,liq=30261;vol_h1=167036;age_min=108;buys=4935;sells=1003;h1=58.59;m5=24.31
 2026-11-27T01:13:54.204608+00:00,BALANCED,SELL,POPBALL,CKiuTwHFMXKBaQ4V1WgsYctsdbLeit3wytXRkphzpump,0.0001281,2.58,-1.53,stop loss,
+2026-11-27T02:05:28.178522+00:00,BALANCED,BUY,KAI,G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump,0.00289327,4.0,,passed filters,liq=126208;vol_h1=1836195;age_min=81;buys=13079;sells=8302;h1=75.09;m5=7.58
