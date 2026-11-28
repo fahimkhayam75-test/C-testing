@@ -222,3 +222,5 @@ time,strategy,action,symbol,address,price,usd,pnl_usd,reason,entry_info
 2026-11-28T01:56:46.706979+00:00,BALANCED,BUY,Memeball,9G9Ssh55SZEoniFjMrMefug9fBy67bUvHzWAxb5Ypump,0.000687628,3.92,,passed filters,liq=58572;vol_h1=78644;age_min=90;buys=16229;sells=3836;h1=40.5;m5=9.76
 2026-11-28T02:58:22.389650+00:00,SAFE,BUY,Memeball,9G9Ssh55SZEoniFjMrMefug9fBy67bUvHzWAxb5Ypump,0.000804739,4.56,,passed filters,liq=63356;vol_h1=40794;age_min=151;buys=1093;sells=481;h1=19.98;m5=1.79
 2026-11-28T02:58:22.389830+00:00,CALM,BUY,Memeball,9G9Ssh55SZEoniFjMrMefug9fBy67bUvHzWAxb5Ypump,0.000804739,4.38,,passed filters,liq=63356;vol_h1=40794;age_min=151;buys=1093;sells=481;h1=19.98;m5=1.79
+2026-11-28T03:36:54.974741+00:00,BALANCED,BUY,MoonBoy,GXjSWDoMQkDEbhon9ALxz8chUUsVKg3x8V3NajjDpump,0.000587512,3.92,,passed filters,liq=73796;vol_h1=88435;age_min=418;buys=838;sells=580;h1=24.71;m5=1.44
+2026-11-28T03:36:54.974921+00:00,CALM,BUY,MoonBoy,GXjSWDoMQkDEbhon9ALxz8chUUsVKg3x8V3NajjDpump,0.000587512,4.38,,passed filters,liq=73796;vol_h1=88435;age_min=418;buys=838;sells=580;h1=24.71;m5=1.44
